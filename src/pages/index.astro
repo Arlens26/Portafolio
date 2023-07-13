@@ -1,15 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Nav from '../components/Nav.astro';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
+		<Nav />
+		<h1 class="text-2xl">Proyectos <span class="text-gradient">personales</span></h1>
+		
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
@@ -35,11 +34,11 @@ import Card from '../components/Card.astro';
 	</main>
 </Layout>
 
-<style>
+<!--<style>
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 60ch;
+		max-width: 80ch;
 	}
 	h1 {
 		font-size: 3rem;
@@ -78,4 +77,4 @@ import Card from '../components/Card.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-</style>
+</style>-->
