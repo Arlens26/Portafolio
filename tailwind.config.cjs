@@ -5,6 +5,11 @@ module.exports = {
 		extend: {
 			backgroundColor:{
 				'primary': '#222',
+				'secondary': '#252629',
+			},
+			fontSize:{
+				'sl': '3.25rem', // super long
+				'subtitle': '2.25rem', // Subtitulos
 			},
 		},
 	},
